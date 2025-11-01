@@ -1,0 +1,17 @@
+# دیتابیس و تنظیمات
+fluxflow_tests.db
+settings.json
+
+# فایل‌های موقت
+__pycache__/
+*.pyc
+*.log
+
+# فایل‌های گرافیکی
+*.png
+*.jpg
+
+# محیط مجازی
+venv/
+env/
+.venv/
