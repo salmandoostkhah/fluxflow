@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python package management
+pip-delete-this-directory.txt
+pip-selfcheck.json
+*.egg-info/
+dist/
+build/
+*.dist-info/
+*.egg
+
+# Database & user settings (حساس و شخصی)
+fluxflow_tests.db
+settings.json
+*.db
+*.sqlite3
+
+# Temporary graph file (از Matplotlib در تب Graph)
+fluxflow_graph.png
+
+# PyInstaller builds
+*.spec
+fluxflow.spec
+build/
+dist/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.cache
+*.pyc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.desktop
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Jupyter Notebooks (اگر بعداً اضافه شد)
+.ipynb_checkpoints/
+
+# Coverage & testing (اگر تست اضافه کردی)
+htmlcov/
+.coverage
+.coverage.*
+cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# End of file

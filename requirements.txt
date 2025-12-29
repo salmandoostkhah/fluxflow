@@ -1,6 +1,10 @@
-PyQt6>=6.5
-requests>=2.28
-matplotlib>=3.7
-pandas>=1.5
-openpyxl>=3.0
-dnspython>=2.3
+# FluxFlow - Network Speed Tester
+# Requirements for v1.1.0 and later
+
+PyQt6>=6.7.0          # GUI framework
+requests>=2.32.3      # HTTP requests for speed tests and geolocation
+matplotlib>=3.9.2     # Graph generation
+dnspython>=2.6.1      # DNS resolution and server detection
+pandas>=2.2.3         # Excel export/import handling
+openpyxl>=3.1.5       # Excel file engine for pandas
+packaging>=24.1       # Version comparison in update checker
